@@ -1,6 +1,6 @@
 import AppContainer from './components/AppContainer';
 import Header from './components/Header';
-import PresetPrompt from './components/PresetPrompt';
+import PromptButton from './components/PromptButton';
 
 import './index.css';
 import './index.jsx';
@@ -8,16 +8,17 @@ import './index.jsx';
 function App() {
   return (
     <AppContainer>
-      <Header>
-        Fun With GPT-3
-      </Header>
+      <Header text="Fun With GPT-3"/>
 
-      <PresetPrompt>
-        Test test test
-      </PresetPrompt>
+      <div style={{display: 'flex', flexDirection: 'column'}}>
+        <PromptButton text="Give me an idea for an online store" />
+        <PromptButton text="What sites can I source products from?" />
+        <PromptButton text="What platform should I use for my store?" />
+      </div>
       
     </AppContainer>
   );
 }
+
 
 export default App;

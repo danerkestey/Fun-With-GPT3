@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppContainer from './components/AppContainer';
 import Header from './components/Header';
-import PresetPrompt from './components/PresetPrompt';
+import PromptButton from './components/PromptButton';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
