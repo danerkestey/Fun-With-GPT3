@@ -8,7 +8,6 @@ const HeaderContainer = Styled.div`
     justify-content: space-between;
     align-items: centre;
     padding: 3em 5em 0 5em;
-    cursor: pointer;
 
 `;
 
@@ -18,9 +17,15 @@ const Icon = () => {
         color="#F8F8F8"
         height={80}
         align="center"
+        cursor="pointer"
         onClick={HandleIconClick}
     />
 };
+
+const Link = Styled.a`
+    color: none;
+    text-decoration: none;
+`
 
 const HandleIconClick = () => {
     console.log("icon clicked")
@@ -29,7 +34,9 @@ const HandleIconClick = () => {
 export default function Header( {text} ) {
     return (
         <HeaderContainer>
-            <h1>{text}</h1>
+            <Link href="/">
+                <h1>{text}</h1>
+            </Link>
             <Icon/>
         </HeaderContainer>
 

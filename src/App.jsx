@@ -1,9 +1,8 @@
 import AppContainer from './components/AppContainer';
 import Header from './components/Header';
 import PromptButton from './components/PromptButton';
+import PrimaryButton from './components/PrimaryButton';
 
-import './index.css';
-import './index.jsx';
 
 function App() {
   return (
@@ -15,7 +14,11 @@ function App() {
         <PromptButton text="What sites can I source products from?" />
         <PromptButton text="What platform should I use for my store?" />
       </div>
-      
+
+      <div style={{display: 'flex', flexDirection: 'column'}}>
+        <PrimaryButton text="SUBMIT"/>
+        <PrimaryButton text="THANKS"/>
+      </div>      
     </AppContainer>
   );
 }
