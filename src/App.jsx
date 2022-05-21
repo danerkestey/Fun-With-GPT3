@@ -2,7 +2,8 @@ import AppContainer from './components/AppContainer';
 import Header from './components/Header';
 import PromptButton from './components/PromptButton';
 import PrimaryButton from './components/PrimaryButton';
-
+import PromptBox from './components/PromptBox';
+import ResponseBox from './components/ResponseBox';
 
 function App() {
   return (
