@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AppContainer from './components/AppContainer';
+import Header from './components/Header';
+import PresetPrompt from './components/PresetPrompt';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
