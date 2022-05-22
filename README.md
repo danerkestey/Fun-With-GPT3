@@ -25,6 +25,7 @@
 - Node.js
 - OpenAI Completions API
 - Google Fonts API
+- Mantine React Components Library
 
 ### CSS
 
