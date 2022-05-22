@@ -4,22 +4,22 @@ import PromptButton from './components/PromptButton';
 import PrimaryButton from './components/PrimaryButton';
 import PromptBox from './components/PromptBox';
 import ResponseBox from './components/ResponseBox';
+import PresetPrompts from './components/PresetPrompts';
+
 
 function App() {
   return (
     <AppContainer>
-      <Header text="Fun With GPT-3"/>
+      <Header text="Fun With GPT-3" />
 
-      <div style={{display: 'flex', flexDirection: 'column'}}>
-        <PromptButton text="Give me an idea for an online store" />
-        <PromptButton text="What sites can I source products from?" />
-        <PromptButton text="What platform should I use for my store?" />
-      </div>
+      <PromptBox/>
+      <PresetPrompts/>
+      
 
-      <div style={{display: 'flex', flexDirection: 'column'}}>
-        <PrimaryButton text="SUBMIT"/>
-        <PrimaryButton text="THANKS"/>
-      </div>      
+      <h4>This is what show</h4>
+
+      <ResponseBox/>
+
     </AppContainer>
   );
 }

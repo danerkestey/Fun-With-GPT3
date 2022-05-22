@@ -6,6 +6,7 @@ const Primary = Styled.button`
     color: #3CA1FF;
 
     border-radius: 30px;
+    border-color: transparent;
     width: 10em;
     height: 4em;
 

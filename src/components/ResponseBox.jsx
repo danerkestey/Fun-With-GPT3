@@ -1,26 +1,26 @@
 import React from "react";
 import Styled from "styled-components";
 
-const PromptContainer = Styled.div`
+
+
+const ResponseContainer = Styled.div`
+    height:1000px;
+    width:1400px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
     
 `;
 
 
-const PromptTextBox = Styled.div`
-    height:100px;
-    width:140px;
-    overflow:auto;
-    background-color:yellowgreen;
-    color:white;
-    scrollbar-base-color:gold;
-    font-family:sans-serif;
-    padding:10px;
+const ResponseTextBox = Styled.div`
 
 `;
 
 
-export default function PromptBox(){
+export default function ResponseBox() {
     return (
-        <p></p>
+        <ResponseContainer>
+
+        </ResponseContainer>
     );
 }
