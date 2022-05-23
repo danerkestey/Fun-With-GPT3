@@ -14,13 +14,10 @@ const Primary = Styled.button`
 
 `;
 
-const handlePrimaryClick = () => {
-    console.log("primary button clicked")
-}
 
-export default function PrimaryButton({ text }) {
+export default function PrimaryButton({ text, onClick }) {
     return (
-        <Primary onClick={handlePrimaryClick}>
+        <Primary onClick={onClick}>
             <h2>
                 {text}
             </h2>

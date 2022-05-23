@@ -16,13 +16,9 @@ const Prompt = Styled.button`
 
 `;
 
-const handlePromptClick = () => {
-    console.log("prompt clicked")
-}
-
 export default function PromptButton({ text }) {
     return (
-        <Prompt onClick={handlePromptClick}>
+        <Prompt onClick={(event) => handlePromptButtonClick(text)}>
             <h2>
                 {text}
             </h2>
@@ -30,3 +26,8 @@ export default function PromptButton({ text }) {
 
     );
 }
+
+const handlePromptButtonClick = (text) => {
+    navigator.clipboard.writeText(text)
+    alert("Copied to clipboard!");
+};

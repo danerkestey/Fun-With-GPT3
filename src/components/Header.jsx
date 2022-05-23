@@ -6,19 +6,19 @@ const HeaderContainer = Styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: centre;
+    align-items: center;
     padding: 3em 5em 0 5em;
 
 `;
 
-const Icon = () => {
+const Icon = ({setOverlayOpened}) => {
     return <Smiley
         icon="ant-design:smile-outlined"
         color="#F8F8F8"
         height={80}
         align="center"
         cursor="pointer"
-        onClick={HandleIconClick}
+        onClick={() => setOverlayOpened(true)}
     />
 };
 
@@ -27,17 +27,14 @@ const Link = Styled.a`
     text-decoration: none;
 `
 
-const HandleIconClick = () => {
-    console.log("icon clicked")
-}
-
-export default function Header( {text} ) {
+export default function Header({ text, setOverlayOpened }) {
     return (
         <HeaderContainer>
             <Link href="/">
                 <h1>{text}</h1>
             </Link>
-            <Icon/>
+
+            <Icon setOverlayOpened={setOverlayOpened}/>
         </HeaderContainer>
 
     );
