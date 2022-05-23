@@ -27,7 +27,7 @@
 - Google Fonts API
 - Mantine React Components Library
 
-### CSS
+### HTML & CSS
 
 ### Tools
 
