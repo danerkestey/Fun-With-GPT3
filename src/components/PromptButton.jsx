@@ -27,7 +27,7 @@ export default function PromptButton({ text }) {
     );
 }
 
-const handlePromptButtonClick = (text) => {
-    navigator.clipboard.writeText(text)
+const handlePromptButtonClick = async (text) => {
+    await navigator.clipboard.writeText(text)
     alert("Copied to clipboard!");
 };
