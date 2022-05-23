@@ -10,6 +10,11 @@
   Hey!👋 This is my submission for Shopify's Front End Developer challenge - Fall 2022!
 </blockquote><br>
 
+## Usage
+
+You can view my submission at [HERE](https://gpt3.daner.dev/)
+- If that doesn't work, you can view [HERE](https://fun-with-gpt3.web.app)
+
 ## Links
 
 - [LinkedIn](https://www.linkedin.com/in/daneryasin/)<br>
