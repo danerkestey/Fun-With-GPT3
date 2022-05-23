@@ -26,6 +26,7 @@
 - OpenAI Completions API
 - Google Fonts API
 - Mantine React Components Library
+- Google Firebase
 
 ### HTML & CSS
 

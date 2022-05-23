@@ -24,3 +24,4 @@ yarn-error.log*
 .env
 fun-with-gpt3.code-workspace
 config.js
+.firebase
