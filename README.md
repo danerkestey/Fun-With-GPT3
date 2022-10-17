@@ -13,6 +13,9 @@
 ## Usage
 
 You can view my submission [HERE](https://gpt3.daner.dev/)
+<blockquote align="left">
+  Just of note, my free OpenAI credits have ran out so the GPT-3 won't return anything :C
+ </blockquote><br>
 
 ## Links
 
