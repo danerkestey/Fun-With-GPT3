@@ -13,7 +13,6 @@
 ## Usage
 
 You can view my submission at [HERE](https://gpt3.daner.dev/)
-- If that doesn't work, you can view [HERE](https://fun-with-gpt3.web.app)
 
 ## Links
 
