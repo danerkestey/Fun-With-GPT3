@@ -12,7 +12,7 @@
 
 ## Usage
 
-You can view my submission at [HERE](https://gpt3.daner.dev/)
+You can view my submission [HERE](https://gpt3.daner.dev/)
 
 ## Links
 
